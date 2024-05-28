@@ -16,7 +16,7 @@ func main() {
 		SessionRequestCallback: server.SessionRequestCallback(),
 	}
 
-	fmt.Println("ssh server listening on port 2220")
+	fmt.Println("SSH server listening on port 2220")
 	err := srv.ListenAndServe()
 	if err != nil {
 		fmt.Println(err)
